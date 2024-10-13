@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Movie Recommendation App</h1>
+    
+    <div class="input-form">
+        <label for="movie1">Favorite Movie 1:</label>
+        <input type="text" id="movie1" placeholder="Enter your favorite movie"><br><br>
+
+        <label for="movie2">Favorite Movie 2:</label>
+        <input type="text" id="movie2" placeholder="Enter your favorite movie"><br><br>
+
+        <label for="movie3">Favorite Movie 3:</label>
+        <input type="text" id="movie3" placeholder="Enter your favorite movie"><br><br>
+
+        <label for="movie4">Favorite Movie 4:</label>
+        <input type="text" id="movie4" placeholder="Enter your favorite movie"><br><br>
+
+        <button onclick="getRecommendations()">Get Recommendations</button>
+    </div>
+
+    <h2>Recommendations:</h2>
+    <div id="recommendations"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
